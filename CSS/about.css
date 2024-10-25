@@ -1,0 +1,94 @@
+html, body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+/* main */
+.about-container {
+    display: flex;
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 20px;
+    margin-top: 10px;
+    background: rgba(41, 41, 41, 0.85);
+}
+
+.about-image {
+    height: 180px;
+    width: 180px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-description {
+    padding: 0px 10px;
+    flex: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-description h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.about-description h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer */
+.about-bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-text {
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.about-text:hover {
+    background: rgba(214, 214, 214, 0.95);
+    color: black;
+}
