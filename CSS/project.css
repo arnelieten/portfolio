@@ -1,0 +1,96 @@
+html, body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.index-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.index-button {
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    padding: 15px 40px;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 10px 20px;
+}
+
+.index-button:hover {
+    background: rgba(109, 109, 109,0.2);
+}
+
+/*project specific*/
+.project-container {
+    display: flex;
+
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 20px;
+    margin-top: 30px;
+    background: rgba(41, 41, 41, 0.85);
+}
+
+.project-image {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-description {
+    padding: 0px 10px;
+    flex: 1;
+}
+
+.project-description h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.project-description h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.project-description p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
