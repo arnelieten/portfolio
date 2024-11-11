@@ -1,121 +1,105 @@
+/* Global styles */
 html, body {
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: top;
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    
+    padding: 0;
 }
 
+/* Header container */
 .index-header-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
+    gap: 20px; /* Adds consistent spacing between buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
 }
 
+/* Header buttons */
 .index-button {
     background-color: transparent;
     color: white;
-    border-style: none;
+    border: none;
     padding: 15px 40px;
     border-radius: 2px;
-    transition-duration: 0.2s;
-    font-family: 'Oswald', sans-serif;
+    transition: background 0.2s ease;
     font-weight: 400;
     font-size: 28px;
-    margin: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 .index-button:hover {
-    background: rgba(109, 109, 109,0.2);
+    background: rgba(109, 109, 109, 0.2);
 }
 
+/* Main title */
 .index-title {
     color: white;
     text-align: center;
     font-size: 80px;
     padding-top: 40px;
-    font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
+/* Description text */
 .index-description {
     color: white;
     text-align: center;
     padding: 20px 100px;
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 /* Media Queries */
+
+/* Large tablets and smaller screens */
 @media (max-width: 1280px) {
-    /* External Screens */
+    .index-title {
+        font-size: 60px;
+    }
+    .index-description {
+        padding: 20px 50px;
+        font-size: 24px;
+    }
+}
+
+/* Tablets and small desktops */
+@media (max-width: 768px) {
+    .index-button {
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    .index-title {
+        font-size: 40px;
+    }
+    .index-description {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 460px) {
     .index-header-container {
+        padding-top: 10px;
+    }
+    .index-button {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .index-title {
+        font-size: 28px;
         padding-top: 20px;
     }
-
-    .index-button {
-        padding: 15px 40px;
-        font-weight: 400;
-        font-size: 28px;
-        margin: 10px 20px;
-    }
-
-    .index-title {
-        font-size: 80px;
-        padding-top: 40px;
-    }
-
     .index-description {
-        padding: 20px 100px;
-        font-size: 30px;
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }
 
-@media (max-width: 768px) {
-    /* Mobiles & Tablets */
-    .index-header-container {
-        padding-top: 10px;
-    }
-
-    .index-button {
-        padding: 5px 20px;
-        font-weight: 400;
-        font-size: 12px;
-        margin: 5px 10px;
-    }
-
-    .index-title {
-        font-size: 20px;
-        padding-top: 10px;
-    }
-
-    .index-description {
-        padding: 10px 50px;
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 460px) {
-    /* Mobiles & Tablets */
-    .index-header-container {
-        padding-top: 10px;
-    }
-
-    .index-button {
-        padding: 5px 20px;
-        font-weight: 400;
-        font-size: 12px;
-        margin: 5px 10px;
-    }
-
-    .index-title {
-        font-size: 20px;
-        padding-top: 10px;
-    }
-
-    .index-description {
-        padding: 10px 50px;
-        font-size: 10px;
-    }
-}
