@@ -100,14 +100,14 @@ html, body {
 @media (max-width: 576px) {
     /* Small phones */
     .index-title {
-        font-size: 12px;
+        font-size: 3px;
     }
     .index-description {
-        font-size: 9px;
+        font-size: 3px;
         padding: 10px 20px;
     }
     .index-button {
-        font-size: 9px;
+        font-size: 3px;
         padding: 6px 15px;
     }
 }
