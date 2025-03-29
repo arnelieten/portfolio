@@ -118,6 +118,23 @@
       margin: 4px 6px;
       width: 120px;
     }
+
+    /* Header Navigation - keep on one row */
+  .index-header-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px 5px;
+  }
+  
+  .index-button {
+    padding: 8px 10px;
+    font-size: 14px;
+    margin: 0 2px;
+    white-space: nowrap;
+    min-width: auto;
+    width: auto;
+    flex: 0 0 auto;
+  }
     
     /* Home page */
     .index-title {
