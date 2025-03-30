@@ -92,6 +92,7 @@
     
     .project-description h2 {
       text-align: center;
+      padding-top: 10px;
     }
     
     /* Contact page */
@@ -139,22 +140,24 @@
     /* Home page */
     .index-title {
       font-size: 40px;
-      padding-top: 20px;
+      padding-top: 40px;
     }
     
     .index-description {
-      padding: 10px 25px;
+      padding: 20px 25px;
       font-size: 20px;
     }
     
     /* About page - already column on tablet */
     .about-description h1 {
       font-size: 26px;
+      padding-top: 10px;
     }
     
     .about-description h2 {
       font-size: 18px;
       line-height: 26px;
+      padding-top: 10px;
     }
     
     /* Footer buttons */
@@ -177,6 +180,7 @@
     /* Contact */
     .contact-text {
       font-size: 28px;
+      padding-top: 20px;
     }
     
     .contact-container {
