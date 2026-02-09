@@ -1,12 +1,4 @@
-
-/* Base responsive styles to add to your existing CSS */
-
-/* General responsive styles */
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Media query for tablet devices */
+/* Media query for tablet devices */
   @media screen and (max-width: 1024px) {
     /* Header Navigation */
     .index-header-container {
@@ -15,19 +7,19 @@
     
     .index-button {
       padding: 12px 20px;
-      font-size: 22px;
+      font-size: 0.75rem;
       margin: 6px 10px;
     }
     
     /* Home page */
     .index-title {
-      font-size: 60px;
+      font-size: 1.2rem;
       padding-top: 30px;
     }
     
     .index-description {
       padding: 15px 50px;
-      font-size: 24px;
+      font-size: 0.75rem;
     }
     
     /* About page */
@@ -47,12 +39,12 @@
     }
     
     .about-description h1 {
-      font-size: 32px;
+      font-size: 0.85rem;
       text-align: center;
     }
     
     .about-description h2 {
-      font-size: 20px;
+      font-size: 0.65rem;
       text-align: center;
     }
     
@@ -65,7 +57,7 @@
     
     .about-text {
       padding: 12px 25px;
-      font-size: 20px;
+      font-size: 0.65rem;
       margin: 10px;
     }
     
@@ -97,7 +89,7 @@
     
     /* Contact page */
     .contact-text {
-      font-size: 40px;
+      font-size: 0.85rem;
       padding: 15px 20px;
       text-align: center;
       width: auto;
@@ -112,58 +104,50 @@
   
   /* Media query for mobile devices */
   @media screen and (max-width: 600px) {
-    /* Header Navigation */
-    .index-button {
-      padding: 10px 15px;
-      font-size: 18px;
-      margin: 4px 6px;
-      width: 120px;
-    }
-
     /* Header Navigation - keep on one row */
-  .index-header-container {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 10px 5px;
-  }
+    .index-header-container {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding: 10px 5px;
+    }
   
-  .index-button {
-    padding: 8px 10px;
-    font-size: 14px;
-    margin: 0 2px;
-    white-space: nowrap;
-    min-width: auto;
-    width: auto;
-    flex: 0 0 auto;
-  }
+    .index-button {
+      padding: 8px 10px;
+      font-size: 0.6rem;
+      margin: 0 2px;
+      white-space: nowrap;
+      min-width: auto;
+      width: auto;
+      flex: 0 0 auto;
+    }
     
     /* Home page */
     .index-title {
-      font-size: 40px;
+      font-size: 0.9rem;
       padding-top: 100px;
     }
     
     .index-description {
       padding: 20px 25px;
-      font-size: 20px;
+      font-size: 0.6rem;
     }
     
     /* About page - already column on tablet */
     .about-description h1 {
-      font-size: 26px;
+      font-size: 0.7rem;
       padding-top: 10px;
     }
     
     .about-description h2 {
-      font-size: 18px;
-      line-height: 26px;
+      font-size: 0.55rem;
+      line-height: 1.8;
       padding-top: 10px;
     }
     
     /* Footer buttons */
     .about-text {
       padding: 10px 20px;
-      font-size: 16px;
+      font-size: 0.55rem;
       margin: 5px;
     }
     
@@ -179,7 +163,7 @@
     
     /* Contact */
     .contact-text {
-      font-size: 28px;
+      font-size: 0.65rem;
       padding-top: 100px;
     }
     

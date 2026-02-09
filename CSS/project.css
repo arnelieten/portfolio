@@ -1,50 +1,17 @@
-html, body {
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    font-family: sans-serif;
-    margin: 0;
-    min-height: 100vh;
-}
-
-.index-header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.index-button {
-    background-color: transparent;
-    color: white;
-    border-style: none;
-    padding: 15px 40px;
-    border-radius: 2px;
-    transition-duration: 0.2s;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    margin: 10px 20px;
-}
-
-.index-button:hover {
-    background: rgba(109, 109, 109,0.2);
-}
-
-/*project specific*/
 .project-container {
     display: flex;
-
     transition-duration: 0.2s;
     text-decoration: none;
-    color: whitesmoke;
+    color: #333333;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     padding: 20px 20px;
     margin-top: 30px;
-    background: rgba(41, 41, 41, 0.85);
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333333;
+    box-shadow: 2px 2px 0 0 #333333;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .project-image {
@@ -68,31 +35,32 @@ html, body {
 .project-description {
     padding: 0px 10px;
     flex: 1;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .project-description h1 {
-    font-family: sans-serif;
-    font-size: 34px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9rem;
     text-decoration: none;
-    color: whitesmoke;
+    color: #333333;
     margin: 0;
 }
 
 .project-description h2 {
-    font-family: sans-serif;
-    font-size: 19px;
-    font-weight: 200;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    font-weight: 400;
     text-decoration: none;
-    color: whitesmoke;
+    color: #333333;
     margin-top: 0px;
     margin-bottom: 10px;
+    line-height: 1.8;
 }
 
 .project-description p {
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.6rem;
+    font-weight: 400;
     text-decoration: none;
-    color: whitesmoke;
-
+    color: #333333;
 }
