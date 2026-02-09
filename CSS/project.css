@@ -1,66 +1,50 @@
-.project-container {
-    display: flex;
-    transition-duration: 0.2s;
-    text-decoration: none;
-    color: #333333;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 20px 20px;
-    margin-top: 30px;
-    background: rgba(255, 255, 255, 0.9);
-    border: 2px solid #333333;
-    box-shadow: 2px 2px 0 0 #333333;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.project-image {
-    height: 300px;
-    width: 300px;
-    overflow: hidden;
+main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+    padding: 48px 20px 20px 20px;
 }
 
-.project-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    color: #333333;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .project-description {
-    padding: 0px 10px;
-    flex: 1;
-    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid #333333;
+    box-shadow: 2px 2px 0 0 #333333;
+    padding: 24px;
 }
 
 .project-description h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.9rem;
-    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
     color: #333333;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .project-description h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: 400;
-    text-decoration: none;
     color: #333333;
-    margin-top: 0px;
-    margin-bottom: 10px;
     line-height: 1.8;
+    margin: 0 0 16px 0;
 }
 
 .project-description p {
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
     font-weight: 400;
-    text-decoration: none;
     color: #333333;
+    margin: 16px 0 0 0;
 }

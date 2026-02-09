@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
-    margin: 10px 20px;
+    margin: 48px 20px 20px 20px;
     text-decoration: none;
     color: #333333;
     font-family: 'Press Start 2P', cursive;
@@ -50,14 +50,16 @@
 
 .project-description h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #333333;
+    margin-bottom: 16px;
+    line-height: 1.5;
 }
 
 .project-description h2 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     text-decoration: none;
     color: #333333;
     line-height: 1.8;
