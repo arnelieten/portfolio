@@ -49,6 +49,10 @@
     text-align: center;
   }
 
+  .about-description {
+    padding-bottom: 24px;
+  }
+
   /* About footer buttons */
   .about-bottom-container {
     position: relative;
@@ -119,6 +123,22 @@
     font-size: 0.6rem;
   }
 
+  .about-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .project-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   /* About page - already column on tablet */
   .about-description h1 {
     font-size: 0.7rem;
@@ -129,6 +149,10 @@
     font-size: 0.55rem;
     line-height: 1.8;
     padding-top: 10px;
+  }
+
+  .about-description {
+    padding-bottom: 24px;
   }
 
   /* Footer buttons */
@@ -146,6 +170,10 @@
   .about-image {
     height: 200px;
     width: 200px;
+  }
+
+  .project-image {
+    display: none;
   }
 
   /* Contact */
