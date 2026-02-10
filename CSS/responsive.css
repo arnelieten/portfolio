@@ -139,6 +139,14 @@
     padding-bottom: 24px;
   }
 
+  main:has(> .project-container:only-child) {
+    padding-top: 20px;
+  }
+
+  main:has(> .project-container:only-child) .project-container {
+    width: 95%;
+  }
+
   /* About page - already column on tablet */
   .about-description h1 {
     font-size: 0.7rem;
