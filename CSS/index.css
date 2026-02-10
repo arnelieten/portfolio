@@ -11,7 +11,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
     text-align: center;
     position: relative;
@@ -25,10 +25,14 @@ p {
 }
 
 .index-header-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
+    padding: 20px clamp(16px, 5vw, 48px);
+    background-color: #a0c8e0;
 }
 
 .index-button {
@@ -47,6 +51,8 @@ p {
 }
 
 .index-main-container {
+    flex: 1;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
